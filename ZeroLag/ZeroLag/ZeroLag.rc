@@ -1,0 +1,423 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ZeroLag.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ZeroLag.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ZEROLAG_DIALOG DIALOGEX 0, 0, 573, 335
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE | WS_EX_APPWINDOW
+CAPTION "ZeroLag 1.6.7"
+MENU IDR_MENU_MAIN
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB_MAIN,"SysTabControl32",0x0,0,0,573,314
+    LTEXT           "",IDC_STATIC_CPUUSAGE,14,320,59,8
+    LTEXT           "",IDC_STATIC_MEMORYUSAGE,210,319,103,8
+END
+
+IDD_DIALOG_SIGNSCAN DIALOGEX 0, 0, 505, 222
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_SIGNSANG,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,26,505,156
+    PUSHBUTTON      "開始掃描",IDC_BUTTON_SIGNSCANBEGIN,123,197,50,14
+    EDITTEXT        IDC_EDIT_SIGNSCANADDR,0,0,436,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "選擇目錄",IDC_BUTTON_SIGNSCANMENU,455,0,50,14
+    PUSHBUTTON      "暫停掃描",IDC_BUTTON_SIGNSCANP,228,197,50,14
+    PUSHBUTTON      "停止掃描",IDC_BUTTON_SIGNSCANEND,333,197,50,14
+    PUSHBUTTON      "掃描設置",IDC_BUTTON_SIGNSCANFILETYPE,9,197,50,14
+END
+
+IDD_DIALOG_ABOUT DIALOGEX 0, 0, 104, 72
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,26,44,50,14
+    LTEXT           "ZeroLag by zapline",IDC_STATIC,21,22,61,8
+END
+
+IDD_DIALOG_RUNMANAGE DIALOGEX 0, 0, 505, 222
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "重新掃描",IDC_BUTTON_RUNMBEGIN,227,196,50,14
+    CONTROL         "",IDC_TREE_RUNMANAGE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,0,0,505,183
+END
+
+IDD_DIALOG_SIGNSCAN_FILETYPE DIALOGEX 0, 0, 161, 114
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "掃描設置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,24,93,50,14
+    PUSHBUTTON      "取消",IDCANCEL,88,93,50,14
+    CONTROL         "只掃描exe",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,15,28,52,10
+    CONTROL         "掃描所有文件",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,15,54,64,10
+    GROUPBOX        "類型選擇",IDC_STATIC,7,7,74,79
+    GROUPBOX        "隱藏有簽名項",IDC_STATIC,86,7,67,78
+    CONTROL         "顯示",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,98,29,32,10
+    CONTROL         "隱藏",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,97,55,32,10
+END
+
+IDD_DIALOG_TEMP DIALOGEX 0, 0, 505, 222
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_PEINFO DIALOGEX 0, 0, 338, 152
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PE文件信息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "關閉",IDOK,267,124,50,14
+    LTEXT           "文件名：",IDC_STATIC,53,25,33,8
+    LTEXT           "文件大小：",IDC_STATIC,45,46,41,8
+    LTEXT           "區段信息：",IDC_STATIC,45,67,41,8
+    CONTROL         "",IDC_LIST_PEINFOLIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,44,87,183,50
+    EDITTEXT        IDC_EDIT_PEINFOFILENAME,105,22,121,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PEINFOFILESIZE,105,44,121,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_PROCESSMANAGE DIALOGEX 0, 0, 505, 222
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_PROCESS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,505,183
+    PUSHBUTTON      "重新掃描",IDC_PROCESSM_SCAN,135,195,50,14
+END
+
+IDD_DIALOG_MEMORYMODIFY DIALOGEX 0, 0, 190, 129
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "內存修改"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,35,99,50,14
+    PUSHBUTTON      "取消",IDCANCEL,103,99,50,14
+    EDITTEXT        IDC_MEMORYM_PNAME,60,14,123,14,ES_AUTOHSCROLL
+    LTEXT           "窗口名稱：",IDC_STATIC,7,19,41,8
+    LTEXT           "內存地址：",IDC_STATIC,7,45,41,8
+    EDITTEXT        IDC_MEMORYM_ADDR,60,40,123,14,ES_AUTOHSCROLL
+    LTEXT           "修改為（四字節HEX）：",IDC_STATIC,7,76,86,8
+    EDITTEXT        IDC_MEMORYM_NEWHEX,107,70,76,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_FILEMD5 DIALOGEX 0, 0, 312, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文件MD5"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,131,107,50,14
+    EDITTEXT        IDC_EDIT_FILEMD5_PATHNAME,7,14,298,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FILEMD5_16,113,47,91,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FILEMD5_32,77,74,167,14,ES_AUTOHSCROLL
+    LTEXT           "16位md5：",IDC_STATIC,18,51,38,8
+    LTEXT           "32位md5：",IDC_STATIC,17,78,38,8
+    PUSHBUTTON      "複製",IDC_FILEMD5_16,255,47,50,14
+    PUSHBUTTON      "複製",IDC_FILEMD5_32,255,74,50,14
+END
+
+IDD_DIALOG_SYSTEMINFO DIALOGEX 0, 0, 505, 222
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "CPU信息",IDC_BUTTON_CPU,54,33,50,14
+END
+
+IDD_DIALOG_SERVERMANAGE DIALOGEX 0, 0, 505, 222
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_SERVER,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,505,183
+    PUSHBUTTON      "刷新",IDC_SERVER_FLUSH,125,194,50,14
+    CONTROL         "隱藏未運行服務",IDC_CHECK_SERVERHIDE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,196,72,10
+END
+
+IDD_DIALOG_UPAN DIALOGEX 0, 0, 505, 222
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "autorun免疫",IDC_STATIC,50,25,138,39
+    COMBOBOX        IDC_COMBO_UPAN_DRIVELIST,67,41,48,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "免疫",IDC_UPAN_CREATEAUTORUN,125,41,50,14
+    GROUPBOX        "顯示隱藏文件",IDC_STATIC,49,98,138,39
+    COMBOBOX        IDC_COMBO_UPAN_DRIVELIST2,67,114,48,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "設置",IDC_UPAN_KILLHIDE,125,114,50,14
+END
+
+IDD_DIALOG_RIGHTBUTTON DIALOGEX 0, 0, 505, 222
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "一般右鍵菜單",IDC_STATIC,119,52,130,109
+    PUSHBUTTON      "添加清空回收站",IDC_RIGHT_RECYCLE,137,70,86,14
+    PUSHBUTTON      "移除清空回收站",IDC_RIGHT_RECYCLE2,137,88,86,14
+    PUSHBUTTON      "添加“移動到”",IDC_RIGHT_MOVETO,137,115,86,14
+    PUSHBUTTON      "移除“移動到”",IDC_RIGHT_MOVETO2,137,133,86,14
+END
+
+IDD_DIALOG_AUTOSHUT DIALOGEX 0, 0, 186, 74
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "定時關機"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "關閉",IDOK,129,53,50,14
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,46,20,61,15
+    PUSHBUTTON      "開始計時",IDC_BUTTON_AUTOSHUT_SET,67,53,50,14
+    LTEXT           "後關機",IDC_STATIC,114,24,25,8
+END
+
+IDD_DIALOG_PROCESS_MODULE DIALOGEX 0, 0, 377, 210
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "模塊"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "關閉",IDOK,320,189,50,14
+    CONTROL         "",IDC_LIST_PROCESS_MODULE,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,363,178
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ZEROLAG_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 334
+    END
+
+    IDD_DIALOG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 97
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 65
+    END
+
+    IDD_DIALOG_SIGNSCAN_FILETYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 154
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_DIALOG_PEINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 331
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_DIALOG_MEMORYMODIFY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_DIALOG_FILEMD5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_DIALOG_AUTOSHUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_DIALOG_PROCESS_MODULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 370
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_MAIN MENU 
+BEGIN
+    POPUP "程序"
+    BEGIN
+        MENUITEM "關閉",                          ID_MCLOSE
+    END
+    POPUP "工具"
+    BEGIN
+        MENUITEM "查看PE文件",                      ID_MENU_VIEWPEINFO
+        MENUITEM SEPARATOR
+        MENUITEM "內存修改",                        ID_MEMU_MEMORYMODIFY
+        MENUITEM SEPARATOR
+        MENUITEM "查看文件MD5",                     ID_MEMU_FILEMD5
+        MENUITEM SEPARATOR
+        MENUITEM "定時關機",                        ID_MENE_AUTOSHUT
+    END
+    POPUP "設置"
+    BEGIN
+        MENUITEM "自定義",                         ID_32772
+    END
+    POPUP "幫助"
+    BEGIN
+        MENUITEM "關於",                          ID_MABOUT
+    END
+END
+
+IDR_MENU_RIGHT MENU 
+BEGIN
+    POPUP "數字簽名0"
+    BEGIN
+        MENUITEM "定位此文件",                       ID_MSIGNSCAN_GOTO
+        MENUITEM "百度此文件",                       ID_MSIGNSCAN_BAIDU
+        MENUITEM SEPARATOR
+        MENUITEM "查看PE信息",                      ID_MSIGNSCAN_PEINFO
+        MENUITEM "查看文件MD5",                     ID_MSIGNSCAN_FILEMD5
+    END
+    POPUP "啟動項1"
+    BEGIN
+        MENUITEM "定位此文件",                       ID_RUNM_GOTO
+        MENUITEM "百度此文件",                       ID_RUNM_BAIDU
+    END
+    POPUP "進程管理2"
+    BEGIN
+        MENUITEM "定位此文件",                       ID_PROCESSM_GOTO
+        MENUITEM "百度此文件",                       ID_PROCESSM_BAIDU
+        MENUITEM SEPARATOR
+        MENUITEM "查看進程模塊",                      ID_PROCESS_MODULE
+        MENUITEM SEPARATOR
+        MENUITEM "查看PE信息",                      ID_PROCESSM_PEINFO
+        MENUITEM SEPARATOR
+        MENUITEM "結束進程",                        ID_PROCESSM_CLOSE
+    END
+    POPUP "服務管理3"
+    BEGIN
+        MENUITEM "啟用/停止",                       ID_SERVER_STATUS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_UPAN DLGINIT
+BEGIN
+    IDC_COMBO_UPAN_DRIVELIST, 0x403, 2, 0
+0x0020, 
+    IDC_COMBO_UPAN_DRIVELIST2, 0x403, 2, 0
+0x0020, 
+    0
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ZeroLag.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
