@@ -8,11 +8,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="SignScan">
-      <UniqueIdentifier>{0d79480a-2c64-4184-a0da-b34dd772ac19}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Public">
       <UniqueIdentifier>{8ba7c619-e5b2-46b6-8224-93c16dc8e9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{d415e03b-5e6e-4ae6-983f-0c59eb7bdf37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\ServerManage">
+      <UniqueIdentifier>{60e3aa9f-7da0-429f-8153-085c9ae5bc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\SignScan">
+      <UniqueIdentifier>{0d79480a-2c64-4184-a0da-b34dd772ac19}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -26,10 +32,13 @@
       <Filter>Main</Filter>
     </ClCompile>
     <ClCompile Include="SignScan.cpp">
-      <Filter>SignScan</Filter>
+      <Filter>Module\SignScan</Filter>
     </ClCompile>
     <ClCompile Include="Public\BrowseDir.cpp">
       <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManage.cpp">
+      <Filter>Module\ServerManage</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -43,13 +52,16 @@
       <Filter>Main</Filter>
     </ClInclude>
     <ClInclude Include="SignScan.h">
-      <Filter>SignScan</Filter>
+      <Filter>Module\SignScan</Filter>
     </ClInclude>
     <ClInclude Include="Public\BrowseDir.h">
       <Filter>Public</Filter>
     </ClInclude>
     <ClInclude Include="Public\MicrosoftVerify.h">
       <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManage.h">
+      <Filter>Module\ServerManage</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

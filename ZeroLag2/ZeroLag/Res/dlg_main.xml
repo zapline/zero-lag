@@ -1,7 +1,7 @@
 ﻿<layer title="ZeroLag" width="800" height="600" appwin="1">
 	<header class="mainhead" width="full" height="23">
 		<icon src="ICON_MAIN" pos="5,4"/>
-		<text class="dlgtitle" pos="25,6">ZeroLag 2.0.3</text>
+		<text class="dlgtitle" pos="25,6">ZeroLag 2.0.4</text>
 		<imgbtn id="60003" class="linkimage" skin="minbtn" pos="-105,1"/>
 		<imgbtn id="60002" class="linkimage" skin="maxbtn" pos="-73,1"/>
 		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,1"/>
@@ -14,7 +14,7 @@
 				<button id="1105" class="normalbtn" pos="-150,20,-50,50">选择目录</button>
 				<realwnd id="1001" ctrlid="1001" pos="10,55,-10,-50" />
 				<button id="1101" class="normalbtn" pos="100,-40,200,-10">扫描设置</button>
-				<button id="1102" ctrlid="1102" class="normalbtn" pos="250,-40,350,-10">开始扫描</button>
+				<button id="1102" class="normalbtn" pos="250,-40,350,-10">开始扫描</button>
 				<button id="1103" class="normalbtn" pos="400,-40,500,-10">暂停扫描</button>
 				<button id="1104" class="normalbtn" pos="550,-40,650,-10">停止扫描</button>
 			</tab>
@@ -25,6 +25,9 @@
 			<tab title="计算机信息" width="full" height="full" crtext="FFFFFF">
 			</tab>
 			<tab title="服务管理" width="full" height="full" crtext="000000">
+				<realwnd id="2001" ctrlid="2001" pos="10,20,-10,-50" />
+				<check id="2101" pos="100,-30">隐藏未运行服务</check>
+				<button id="2102" class="normalbtn" pos="250,-40,350,-10">刷新</button>
 			</tab>
 			<tab title="U盘维护" width="full" height="full" crtext="FFFFFF">
 			</tab>

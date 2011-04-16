@@ -1,6 +1,7 @@
 #pragma once
 #include "stdafx.h"
 #include "SignScan.h"
+#include "ServerManage.h"
 class CMainWnd : public CKuiDialogImpl<CMainWnd>
 	, public CWHRoundRectFrameHelper<CMainWnd>
 {
@@ -24,6 +25,8 @@ public:
 	void OnSignScanOption();
 	friend void SignScanThread(LPVOID param);
 
+	void ServerManageFlush();
+
 	CKuiRealListCtrl SignScanListCtrl;
 /*	CButton SignScanbBegin,SignScanbPause,SignScanbEnd;*/
 	CEdit SignScanPathEdit;
@@ -33,6 +36,10 @@ public:
 	int SignScanFileType;
 	int SignScanThreadStatus;
 	HANDLE SignScanhThread;
+
+	CKuiRealListCtrl ServerManageListCtrl;
+	BOOL ServerManageHide;
+	CServerManage ServerManage;
 	
 
 	KUI_NOTIFY_MAP(IDC_RICHVIEW_WIN)
