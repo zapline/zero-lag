@@ -1,6 +1,6 @@
-glob:*.user
-glob:*.suo
-glob:*.sdf
+glob:ZeroLag2/ZeroLag.suo
+glob:ZeroLag2/ZeroLag.sdf
+glob:ZeroLag2/ipch
 glob:ZeroLag2/Debug
 glob:ZeroLag2/Release
 glob:ZeroLag2/ZeroLag/Debug
