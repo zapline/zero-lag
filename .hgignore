@@ -1,0 +1,7 @@
+glob:*.user
+glob:*.suo
+glob:*.sdf
+glob:ZeroLag2/Debug
+glob:ZeroLag2/Release
+glob:ZeroLag2/ZeroLag/Debug
+glob:ZeroLag2/ZeroLag/Release

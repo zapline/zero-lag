@@ -20,6 +20,21 @@
     <Filter Include="Module\SignScan">
       <UniqueIdentifier>{0d79480a-2c64-4184-a0da-b34dd772ac19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Module\ProcessManage">
+      <UniqueIdentifier>{6b70f3fa-eef8-49a7-bc7d-83180de21523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\RunManage">
+      <UniqueIdentifier>{115e2747-6aa9-4c46-9244-be666873ef1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\Upan">
+      <UniqueIdentifier>{80a28e26-4d06-46b8-98d4-08ba4997745f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\SystemInfo">
+      <UniqueIdentifier>{6c4c9677-9539-47cb-83c2-8b7160a3ff9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\RightButton">
+      <UniqueIdentifier>{6331b83a-ea15-4836-96cc-8463afbbfe6b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -39,6 +54,27 @@
     </ClCompile>
     <ClCompile Include="ServerManage.cpp">
       <Filter>Module\ServerManage</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManageUIHandler.cpp">
+      <Filter>Module\ServerManage</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManageUIHandler.cpp">
+      <Filter>Module\ProcessManage</Filter>
+    </ClCompile>
+    <ClCompile Include="RunManageUIHandler.cpp">
+      <Filter>Module\RunManage</Filter>
+    </ClCompile>
+    <ClCompile Include="RightButtonUIHandler.cpp">
+      <Filter>Module\RightButton</Filter>
+    </ClCompile>
+    <ClCompile Include="SignScanUIHandler.cpp">
+      <Filter>Module\SignScan</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemInfoUIHandler.cpp">
+      <Filter>Module\SystemInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="UpanUIHandler.cpp">
+      <Filter>Module\Upan</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +98,27 @@
     </ClInclude>
     <ClInclude Include="ServerManage.h">
       <Filter>Module\ServerManage</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManageUIHandler.h">
+      <Filter>Module\ServerManage</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManageUIHandler.h">
+      <Filter>Module\ProcessManage</Filter>
+    </ClInclude>
+    <ClInclude Include="RunManageUIHandler.h">
+      <Filter>Module\RunManage</Filter>
+    </ClInclude>
+    <ClInclude Include="RightButtonUIHandler.h">
+      <Filter>Module\RightButton</Filter>
+    </ClInclude>
+    <ClInclude Include="SignScanUIHandler.h">
+      <Filter>Module\SignScan</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInfoUIHandler.h">
+      <Filter>Module\SystemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="UpanUIHandler.h">
+      <Filter>Module\Upan</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
