@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D7DCB52E-64F1-44D1-8B8E-A14A8A32F702}</ProjectGuid>
+    <RootNamespace>kscbase</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../lib/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../lib/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\3Party\wtl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(ProjectDir)\..\lib\kscbaseD.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../import/kclear_include;../../import/kclear_include/kscbase;../../import/kclear_include/3rdparty/zlib;../../import/kclear_include/3rdparty/tinyxml;../../import/kclear_include/3rdparty/wtl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)kscbase.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\kscconf.cpp" />
+    <ClCompile Include="src\kscconv.cpp" />
+    <ClCompile Include="src\kscfilepath.cpp" />
+    <ClCompile Include="src\kscres.cpp" />
+    <ClCompile Include="src\kscsys.cpp" />
+    <ClCompile Include="src\tinyxml_wrapper.cpp" />
+    <ClCompile Include="..\3Party\zlib\adler32.c" />
+    <ClCompile Include="..\3Party\zlib\compress.c" />
+    <ClCompile Include="..\3Party\zlib\crc32.c" />
+    <ClCompile Include="..\3Party\zlib\deflate.c" />
+    <ClCompile Include="..\3Party\zlib\gzio.c" />
+    <ClCompile Include="..\3Party\zlib\infback.c" />
+    <ClCompile Include="..\3Party\zlib\inffast.c" />
+    <ClCompile Include="..\3Party\zlib\inflate.c" />
+    <ClCompile Include="..\3Party\zlib\inftrees.c" />
+    <ClCompile Include="..\3Party\zlib\ioapi.c" />
+    <ClCompile Include="..\3Party\zlib\iowin32.c" />
+    <ClCompile Include="..\3Party\zlib\mztools.c" />
+    <ClCompile Include="..\3Party\zlib\trees.c" />
+    <ClCompile Include="..\3Party\zlib\uncompr.c" />
+    <ClCompile Include="..\3Party\zlib\unzip.c" />
+    <ClCompile Include="..\3Party\zlib\zip.c" />
+    <ClCompile Include="..\3Party\zlib\zutil.c" />
+    <ClCompile Include="..\3Party\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\3Party\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\3Party\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\3Party\tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\kscbase\kscbase.h" />
+    <ClInclude Include="..\Include\kscbase\kscconf.h" />
+    <ClInclude Include="..\Include\kscbase\kscconv.h" />
+    <ClInclude Include="..\Include\kscbase\kscfilepath.h" />
+    <ClInclude Include="..\Include\kscbase\ksclock.h" />
+    <ClInclude Include="..\Include\kscbase\kscmemfile.h" />
+    <ClInclude Include="..\Include\kscbase\kscres.h" />
+    <ClInclude Include="..\Include\kscbase\kscsys.h" />
+    <ClInclude Include="..\3Party\zlib\crc32.h" />
+    <ClInclude Include="..\3Party\zlib\crypt.h" />
+    <ClInclude Include="..\3Party\zlib\deflate.h" />
+    <ClInclude Include="..\3Party\zlib\inffast.h" />
+    <ClInclude Include="..\3Party\zlib\inffixed.h" />
+    <ClInclude Include="..\3Party\zlib\inflate.h" />
+    <ClInclude Include="..\3Party\zlib\inftrees.h" />
+    <ClInclude Include="..\3Party\zlib\ioapi.h" />
+    <ClInclude Include="..\3Party\zlib\iowin32.h" />
+    <ClInclude Include="..\3Party\zlib\mztools.h" />
+    <ClInclude Include="..\3Party\zlib\trees.h" />
+    <ClInclude Include="..\3Party\zlib\unzip.h" />
+    <ClInclude Include="..\3Party\zlib\zconf.h" />
+    <ClInclude Include="..\3Party\zlib\zconf.in.h" />
+    <ClInclude Include="..\3Party\zlib\zip.h" />
+    <ClInclude Include="..\3Party\zlib\zlib.h" />
+    <ClInclude Include="..\3Party\zlib\zutil.h" />
+    <ClInclude Include="..\3Party\tinyxml\tinystr.h" />
+    <ClInclude Include="..\3Party\tinyxml\tinyxml.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

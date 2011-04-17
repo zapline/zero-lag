@@ -6,3 +6,6 @@ glob:ZeroLag2/Debug
 glob:ZeroLag2/Release
 glob:ZeroLag2/ZeroLag/Debug
 glob:ZeroLag2/ZeroLag/Release
+
+glob:ZeroLag2/KUILib/kscbase/Release
+glob:ZeroLag2/KUILib/kscbase/Debug
