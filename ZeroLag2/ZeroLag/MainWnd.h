@@ -1,7 +1,7 @@
 #pragma once
 #include "stdafx.h"
 #include "SignScanUIHandler.h"
-#include "ServerManage.h"
+#include "ServerManageUIHandler.h"
 class CMainWnd : public CKuiDialogImpl<CMainWnd>
 	, public CWHRoundRectFrameHelper<CMainWnd>
 {
@@ -16,13 +16,9 @@ public:
     void OnBkBtnMax();
     void OnBkBtnMin();
 
-	void ServerManageFlush();
-
 	CSignScanUIHandler *SignScanUIHandler;
+	CServerManageUIHandler *ServerManageHandler;
 
-	CKuiRealListCtrl ServerManageListCtrl;
-	BOOL ServerManageHide;
-	CServerManage ServerManage;
 	
 
 	KUI_NOTIFY_MAP(IDC_RICHVIEW_WIN)
@@ -41,7 +37,8 @@ public:
 		MSG_WM_DESTROY(OnDestroy)
 
 		CHAIN_MSG_MAP_MEMBER((*SignScanUIHandler))
-		
+		CHAIN_MSG_MAP_MEMBER((*ServerManageHandler))
+
 		REFLECT_NOTIFICATIONS_EX()
 	END_MSG_MAP()
 };

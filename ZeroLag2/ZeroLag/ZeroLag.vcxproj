@@ -95,6 +95,10 @@
   <ItemGroup>
     <ResourceCompile Include="Sample4_Tab.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\images\main.ico" />
+    <None Include="res\Res.zip" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
