@@ -19,11 +19,11 @@ public:
 
 	KUI_NOTIFY_MAP(IDC_RICHVIEW_WIN)
 		KUI_NOTIFY_ID_COMMAND(2102, OnServerManageFlush)
-	KUI_NOTIFY_MAP_END()
+		KUI_NOTIFY_MAP_END()
 
-	BEGIN_MSG_MAP_EX(CServerManageUIHandler)
+		BEGIN_MSG_MAP_EX(CServerManageUIHandler)
 		MSG_KUI_NOTIFY(IDC_RICHVIEW_WIN)
-	END_MSG_MAP()
+		END_MSG_MAP()
 
 public:
 	CServerManageUIHandler(void);

@@ -9,12 +9,22 @@ CMainWnd::CMainWnd(void) : CKuiDialogImpl<CMainWnd>( "IDR_DLG_MAIN" )
 
 	SignScanUIHandler = new CSignScanUIHandler();
 	ServerManageHandler = new CServerManageUIHandler();
+	ProcessManageHandler = new CProcessManageUIHandler();
+	RunManageHandler = new CRunManageUIHandler();
+	RightButtonHandler = new CRightButtonUIHandler();
+	UpanHandler = new CUpanUIHandler();
+	SystemInfoHandler = new CSystemInfoUIHandler();
 }
 
 CMainWnd::~CMainWnd(void)
 {
 	delete SignScanUIHandler;
 	delete ServerManageHandler;
+	delete ProcessManageHandler;
+	delete SystemInfoHandler;
+	delete RunManageHandler;
+	delete RightButtonHandler;
+	delete UpanHandler;
 }
 
 LRESULT CMainWnd::OnInitDialog( HWND hDlg, LPARAM lParam )
@@ -24,6 +34,11 @@ LRESULT CMainWnd::OnInitDialog( HWND hDlg, LPARAM lParam )
 
 	SignScanUIHandler->init(g_pMainWnd);
 	ServerManageHandler->init(g_pMainWnd);
+	ProcessManageHandler->init(g_pMainWnd);
+	RunManageHandler->init(g_pMainWnd);
+	RightButtonHandler->init(g_pMainWnd);
+	UpanHandler->init(g_pMainWnd);
+	SystemInfoHandler->init(g_pMainWnd);
 
 	CenterWindow();
 	return TRUE;
