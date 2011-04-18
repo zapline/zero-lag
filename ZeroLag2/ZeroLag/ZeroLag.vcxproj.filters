@@ -76,6 +76,9 @@
     <ClCompile Include="UpanUIHandler.cpp">
       <Filter>Module\Upan</Filter>
     </ClCompile>
+    <ClCompile Include="ProcessManage.cpp">
+      <Filter>Module\ProcessManage</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainWnd.h">
@@ -119,6 +122,9 @@
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManage.h">
+      <Filter>Module\ProcessManage</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

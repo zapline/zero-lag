@@ -64,6 +64,7 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainWnd.cpp" />
+    <ClCompile Include="ProcessManage.cpp" />
     <ClCompile Include="ProcessManageUIHandler.cpp" />
     <ClCompile Include="Public\BrowseDir.cpp" />
     <ClCompile Include="RightButtonUIHandler.cpp" />
@@ -78,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainWnd.h" />
+    <ClInclude Include="ProcessManage.h" />
     <ClInclude Include="ProcessManageUIHandler.h" />
     <ClInclude Include="Public\BrowseDir.h" />
     <ClInclude Include="Public\MicrosoftVerify.h" />
