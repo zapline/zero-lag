@@ -1,7 +1,7 @@
 ﻿<layer title="ZeroLag" width="800" height="600" appwin="1">
 	<header class="mainhead" width="full" height="23">
 		<icon src="ICON_MAIN" pos="5,4"/>
-		<text class="dlgtitle" pos="25,6">ZeroLag 2.0.5</text>
+		<text class="dlgtitle" pos="25,6">ZeroLag 2.0.6</text>
 		<imgbtn id="60003" class="linkimage" skin="minbtn" pos="-105,1"/>
 		<imgbtn id="60002" class="linkimage" skin="maxbtn" pos="-73,1"/>
 		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,1"/>
@@ -19,8 +19,12 @@
 				<button id="1104" class="normalbtn" pos="550,-40,650,-10">停止扫描</button>
 			</tab>
 			<tab title="启动项管理" width="full" height="full" crtext="FFFFFF">
+				<realwnd id="3001" ctrlid="3001" pos="10,20,-10,-50" />
+				<button id="3101" class="normalbtn" pos="250,-40,350,-10">刷新</button>
 			</tab>
 			<tab title="进程管理" width="full" height="full" crtext="FFFFFF">
+				<realwnd id="4001" ctrlid="4001" pos="10,20,-10,-50" />
+				<button id="4101" class="normalbtn" pos="250,-40,350,-10">刷新</button>
 			</tab>
 			<tab title="计算机信息" width="full" height="full" crtext="FFFFFF">
 			</tab>
