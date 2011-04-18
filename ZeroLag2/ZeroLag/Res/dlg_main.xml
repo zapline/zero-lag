@@ -6,9 +6,10 @@
 		<imgbtn id="60002" class="linkimage" skin="maxbtn" pos="-73,1"/>
 		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,1"/>
 	</header>
+	
 	<body class="mainbody" width="full" height="full">
 		<tabctrl id="1" tabwidth="71" tabheight="71" tabskin="tabmain" iconskin="tabicon"  crtext="ffffff" tabspacing="5" tabpos="1" framepos="7" pos="10,4,-0,-1" icon-x="10" icon-y="1" text-x="0" text-y="25">
-			<tab title="签名扫描" width="full" height="full" crtext="FFFFFF">
+			<tab title="签名扫描" width="full" height="full" crtext="000000">
 				<!--text  class="BlueText" pos="100,30">C:\windows\system32\</text-->
 				<realwnd id="1002" ctrlid="1002" class="edit" pos="100,25,-180,45" />
 				<button id="1105" class="normalbtn" pos="-150,20,-50,50">选择目录</button>
@@ -18,27 +19,55 @@
 				<button id="1103" class="normalbtn" pos="400,-40,500,-10">暂停扫描</button>
 				<button id="1104" class="normalbtn" pos="550,-40,650,-10">停止扫描</button>
 			</tab>
-			<tab title="启动项管理" width="full" height="full" crtext="FFFFFF">
+			
+			<tab title="启动项管理" width="full" height="full" crtext="000000">
 				<realwnd id="3001" ctrlid="3001" pos="10,20,-10,-50" />
 				<button id="3101" class="normalbtn" pos="250,-40,350,-10">刷新</button>
 			</tab>
-			<tab title="进程管理" width="full" height="full" crtext="FFFFFF">
+			
+			<tab title="进程管理" width="full" height="full" crtext="000000">
 				<realwnd id="4001" ctrlid="4001" pos="10,20,-10,-50" />
 				<button id="4101" class="normalbtn" pos="250,-40,350,-10">刷新</button>
 			</tab>
-			<tab title="计算机信息" width="full" height="full" crtext="FFFFFF">
+			
+			<tab title="计算机信息" width="full" height="full" crtext="000000">
+				<text  class="BlueText" pos="20,30">以下为该计算机的相关信息</text>
+				<!--realwnd id="1002" ctrlid="1002" class="edit" pos="100,25,-180,45" /-->
+				<button id="5101" class="normalbtn" pos="-280,20,-180,50">重新检测</button>
+				<button id="5102" class="normalbtn" pos="-150,20,-50,50">导出信息</button>
+				<tabctrl id="2" tabalign="left" tabwidth="69" tabheight="21" tabskin="tabsysinfo" crtext="000000" tabspacing="5" tabpos="1" framepos="7" pos="10,70,-0,-0" icon-x="10" icon-y="1" text-x="2" text-y="2">
+					<tab title="基本概况" width="full" height="full" crtext="000000">
+						<text  class="examtexttitle" pos="50,50">helloworld</text>
+					</tab>
+
+					<tab title="CPU信息" width="full" height="full" crtext="000000">
+					</tab>
+					
+					<tab title="硬盘信息" width="full" height="full" crtext="000000">
+					</tab>
+					
+					<tab title="网卡信息" width="full" height="full" crtext="000000">
+					</tab>
+					
+					<tab title="键鼠信息" width="full" height="full" crtext="000000">
+					</tab>
+				</tabctrl>
 			</tab>
+			
 			<tab title="服务管理" width="full" height="full" crtext="000000">
 				<realwnd id="2001" ctrlid="2001" pos="10,20,-10,-50" />
 				<check id="2101" pos="100,-30">隐藏未运行服务</check>
 				<button id="2102" class="normalbtn" pos="250,-40,350,-10">刷新</button>
 			</tab>
-			<tab title="U盘维护" width="full" height="full" crtext="FFFFFF">
+			
+			<tab title="U盘维护" width="full" height="full" crtext="000000">
 			</tab>
-			<tab title="右键管理" width="full" height="full" crtext="FFFFFF">
+			
+			<tab title="右键管理" width="full" height="full" crtext="000000">
 			</tab>
 		</tabctrl>
 	</body>
+	
 	<footer class="mainfoot" width="full" height="23" crbg=FFB9B9>
 	</footer>
 </layer>

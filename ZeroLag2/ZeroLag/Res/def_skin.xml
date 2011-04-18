@@ -6,9 +6,6 @@
 <imghorzex name=progressbg src="IDB_PROGRESS_BAR_BG" mode=mask left=3/>
 <imghorzex name=progresspos src="IDB_PROGRESS_BAR_VALUE" mode=mask left=3/>
 
-
-<png name=snakelogo src="IDP_SNAKE"/>
-
 <imgframe name=panel src="IDB_FRAME_PANEL" top=1 left=1 crbg=FBFCFD/>
 <imgframe name=panelgray src="IDB_FRAME_PANEL_GRAY" top=1 left=1 crbg=FBFCFD/>
 <imgframe name=panelwhite src="IDB_FRAME_PANEL" top=1 left=1 crbg=FBFCFD/>
@@ -59,7 +56,8 @@
 <png name="folder" src="IDP_FOLDER" />
 <png name="process_ok" src="IDP_PROCESS_OK" />
 <imglst name="bigfile_del_msgbox" src="IDB_DEL_MSGBOX_INFO" subwidth="40" mode="mask"/>
-<imglst name=tabmain src="IDB_TABMAIN" mode=mask subwidth=71/>
+<imglst name="tabmain" src="IDB_TABMAIN" mode="mask" subwidth=71/>
+<imglst name="tabsysinfo" src="IDB_TABSYSINFO" mode="mask" subwidth=69/>
 <png name="tabicon" src="IDP_TABICON" subwidth=48/>
 <imglst name="onekeyclean" src="IDB_ONEKEY_CLEAN" subwidth="168"/>
 <imglst name="onekeyshadow" src="IDB_ONEKEY_SHAWDOW" subwidth="168"/>

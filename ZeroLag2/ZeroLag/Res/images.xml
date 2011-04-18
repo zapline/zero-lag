@@ -18,5 +18,7 @@
 
 	<image id="IDB_TABMAIN" path="images/tab_main.bmp" />
 	<image id="IDP_TABICON" path="images/tabicon.png" />
+	
+	<image id="IDB_TABSYSINFO" path="images/tab_sysinfo.bmp" />
 </images>
 
