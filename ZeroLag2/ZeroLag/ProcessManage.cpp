@@ -52,7 +52,32 @@ void CProcessManage::Init2()
 	{
 		Count++;
 		ps.pid = pe.th32ProcessID;
-		StrCpy(ps.name, pe.szExeFile);
+		//判断pid是否为0或者4
+		if (ps.pid == 0)
+		{
+			StrCpy(ps.name,"System Idle Process");
+		} 
+		else if (ps.pid == 4)
+		{
+			StrCpy(ps.name,"System");
+		}
+		else
+		{
+			//判断获取到的是否为空
+			PrintProcessNameAndID(pe.th32ProcessID,ps.name);
+			if (ps.name[0] == 0)
+			{
+				if (pe.szExeFile[0] != 0)
+				{							
+					StrCpy(ps.name,"\\\\?\\");
+					StrCpy(ps.name+4, pe.szExeFile);
+				} 
+				else
+				{
+					StrCpy(ps.name, "unknow");
+				}
+			}
+		}
 		ProcessList.push_back(ps);
 		retval=Process32Next(hSnapshot,&pe);
 	}

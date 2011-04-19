@@ -66,7 +66,7 @@ void EnumProcesseThread( LPVOID param )
 	CProcessManageUIHandler *p = (CProcessManageUIHandler *)param;
 	CStringA temp;
 
-	p->ProcessManage->Init();
+	p->ProcessManage->Init2();
 	for (int i=0;i<p->ProcessManage->GetCount();i++)
 	{
 		p->ProcessList.InsertItem(i, "");
