@@ -35,6 +35,8 @@ void CProcessManage::Init()
 
 void CProcessManage::Init2()
 {
+	AdjustPurview();
+
 	HANDLE hSnapshot=CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
 	if (!hSnapshot)
 	{
