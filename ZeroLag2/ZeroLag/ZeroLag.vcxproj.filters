@@ -79,6 +79,12 @@
     <ClCompile Include="ProcessManage.cpp">
       <Filter>Module\ProcessManage</Filter>
     </ClCompile>
+    <ClCompile Include="RunManage.cpp">
+      <Filter>Module\RunManage</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\GetGlobalState.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainWnd.h">
@@ -125,6 +131,21 @@
     </ClInclude>
     <ClInclude Include="ProcessManage.h">
       <Filter>Module\ProcessManage</Filter>
+    </ClInclude>
+    <ClInclude Include="RunManage.h">
+      <Filter>Module\RunManage</Filter>
+    </ClInclude>
+    <ClInclude Include="RunManageBase.h">
+      <Filter>Module\RunManage</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\EnumFile.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\GetGlobalState.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LnkHelper.h">
+      <Filter>Public</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

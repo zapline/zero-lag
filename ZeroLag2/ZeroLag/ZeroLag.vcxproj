@@ -67,7 +67,9 @@
     <ClCompile Include="ProcessManage.cpp" />
     <ClCompile Include="ProcessManageUIHandler.cpp" />
     <ClCompile Include="Public\BrowseDir.cpp" />
+    <ClCompile Include="Public\GetGlobalState.cpp" />
     <ClCompile Include="RightButtonUIHandler.cpp" />
+    <ClCompile Include="RunManage.cpp" />
     <ClCompile Include="RunManageUIHandler.cpp" />
     <ClCompile Include="ServerManage.cpp" />
     <ClCompile Include="ServerManageUIHandler.cpp" />
@@ -82,9 +84,14 @@
     <ClInclude Include="ProcessManage.h" />
     <ClInclude Include="ProcessManageUIHandler.h" />
     <ClInclude Include="Public\BrowseDir.h" />
+    <ClInclude Include="Public\EnumFile.h" />
+    <ClInclude Include="Public\GetGlobalState.h" />
+    <ClInclude Include="Public\LnkHelper.h" />
     <ClInclude Include="Public\MicrosoftVerify.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="RightButtonUIHandler.h" />
+    <ClInclude Include="RunManage.h" />
+    <ClInclude Include="RunManageBase.h" />
     <ClInclude Include="RunManageUIHandler.h" />
     <ClInclude Include="ServerManage.h" />
     <ClInclude Include="ServerManageUIHandler.h" />
