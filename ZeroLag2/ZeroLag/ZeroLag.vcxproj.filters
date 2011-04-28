@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{c8fd7c85-bfe8-46b2-bc8d-faca15043428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{8ba7c619-e5b2-46b6-8224-93c16dc8e9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{d415e03b-5e6e-4ae6-983f-0c59eb7bdf37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\ServerManage">
+      <UniqueIdentifier>{60e3aa9f-7da0-429f-8153-085c9ae5bc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\SignScan">
+      <UniqueIdentifier>{0d79480a-2c64-4184-a0da-b34dd772ac19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\ProcessManage">
+      <UniqueIdentifier>{6b70f3fa-eef8-49a7-bc7d-83180de21523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\RunManage">
+      <UniqueIdentifier>{115e2747-6aa9-4c46-9244-be666873ef1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\Upan">
+      <UniqueIdentifier>{80a28e26-4d06-46b8-98d4-08ba4997745f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\SystemInfo">
+      <UniqueIdentifier>{6c4c9677-9539-47cb-83c2-8b7160a3ff9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\RightButton">
+      <UniqueIdentifier>{6331b83a-ea15-4836-96cc-8463afbbfe6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SignScan.cpp">
+      <Filter>Module\SignScan</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\BrowseDir.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManage.cpp">
+      <Filter>Module\ServerManage</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManageUIHandler.cpp">
+      <Filter>Module\ServerManage</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManageUIHandler.cpp">
+      <Filter>Module\ProcessManage</Filter>
+    </ClCompile>
+    <ClCompile Include="RunManageUIHandler.cpp">
+      <Filter>Module\RunManage</Filter>
+    </ClCompile>
+    <ClCompile Include="RightButtonUIHandler.cpp">
+      <Filter>Module\RightButton</Filter>
+    </ClCompile>
+    <ClCompile Include="SignScanUIHandler.cpp">
+      <Filter>Module\SignScan</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemInfoUIHandler.cpp">
+      <Filter>Module\SystemInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="UpanUIHandler.cpp">
+      <Filter>Module\Upan</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManage.cpp">
+      <Filter>Module\ProcessManage</Filter>
+    </ClCompile>
+    <ClCompile Include="RunManage.cpp">
+      <Filter>Module\RunManage</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\GetGlobalState.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWnd.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SignScan.h">
+      <Filter>Module\SignScan</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\BrowseDir.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\MicrosoftVerify.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManage.h">
+      <Filter>Module\ServerManage</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManageUIHandler.h">
+      <Filter>Module\ServerManage</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManageUIHandler.h">
+      <Filter>Module\ProcessManage</Filter>
+    </ClInclude>
+    <ClInclude Include="RunManageUIHandler.h">
+      <Filter>Module\RunManage</Filter>
+    </ClInclude>
+    <ClInclude Include="RightButtonUIHandler.h">
+      <Filter>Module\RightButton</Filter>
+    </ClInclude>
+    <ClInclude Include="SignScanUIHandler.h">
+      <Filter>Module\SignScan</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInfoUIHandler.h">
+      <Filter>Module\SystemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="UpanUIHandler.h">
+      <Filter>Module\Upan</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManage.h">
+      <Filter>Module\ProcessManage</Filter>
+    </ClInclude>
+    <ClInclude Include="RunManage.h">
+      <Filter>Module\RunManage</Filter>
+    </ClInclude>
+    <ClInclude Include="RunManageBase.h">
+      <Filter>Module\RunManage</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\EnumFile.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\GetGlobalState.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LnkHelper.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sample4_Tab.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\images\main.ico">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="res\Res.zip" />
+  </ItemGroup>
+</Project>

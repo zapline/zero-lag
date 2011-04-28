@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="3rdparty">
+      <UniqueIdentifier>{ec11c848-ef67-4e86-b64b-dbd7981da607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty\zlib">
+      <UniqueIdentifier>{73bd0ce7-0894-4f3e-a016-f509e494be3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty\tinyxml">
+      <UniqueIdentifier>{c60a826b-c9a8-4cda-baf3-6d60aa899cfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\kscconf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kscconv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kscfilepath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kscres.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kscsys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml_wrapper.cpp">
+      <Filter>3rdparty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\adler32.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\compress.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\crc32.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\deflate.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\gzio.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\infback.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\inffast.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\inflate.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\inftrees.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\ioapi.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\iowin32.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\mztools.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\trees.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\uncompr.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\unzip.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\zip.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\zlib\zutil.c">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\tinyxml\tinystr.cpp">
+      <Filter>3rdparty\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\tinyxml\tinyxml.cpp">
+      <Filter>3rdparty\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\tinyxml\tinyxmlerror.cpp">
+      <Filter>3rdparty\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3Party\tinyxml\tinyxmlparser.cpp">
+      <Filter>3rdparty\tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\kscbase\kscbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\kscbase\kscconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\kscbase\kscconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\kscbase\kscfilepath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\kscbase\ksclock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\kscbase\kscmemfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\kscbase\kscres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\kscbase\kscsys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\crc32.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\crypt.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\deflate.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\inffast.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\inffixed.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\inflate.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\inftrees.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\ioapi.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\iowin32.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\mztools.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\trees.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\unzip.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\zconf.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\zconf.in.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\zip.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\zlib.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\zlib\zutil.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\tinyxml\tinystr.h">
+      <Filter>3rdparty\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3Party\tinyxml\tinyxml.h">
+      <Filter>3rdparty\tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

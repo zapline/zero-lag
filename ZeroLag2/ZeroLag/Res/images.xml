@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<images>
+	<image id="IDB_BTN_NORMAL_BG" path="images/btn_normal_bg.bmp" />
+	<image id="IDB_BTN_SYS_CLOSE" path="images/btn_sys_close.bmp" />
+	<image id="IDP_BTN_SYS_CLOSE_ONLY" path="images/btn_sys_close.png" />
+	<image id="IDP_BTN_SYS_MAXIMIZE" path="images/btn_sys_maximize.png" />
+	<image id="IDP_BTN_SYS_MINIMIZE" path="images/btn_sys_minimize.png" />
+	<image id="IDP_BTN_SYS_RESTORE" path="images/btn_sys_restore.png" />
+
+	<image id="IDB_MSGBOX_HEADER" path="images/msgbox_bg.bmp" />
+	<image id="IDB_MSGBOX_BODY" path="images/msgbox_body_bg.bmp" />
+
+	<image id="IDB_MAIN_BG_HEAD" path="images/main_bg_header.bmp" />
+	<image id="IDB_MAIN_BG_BODY" path="images/main_bg_body.bmp" />
+	<image id="IDB_MAIN_BG_FOOT" path="images/main_bg_footer.bmp" />
+
+	<image id="ICON_MAIN" path="images/main.ico" />
+
+	<image id="IDB_TABMAIN" path="images/tab_main.bmp" />
+	<image id="IDP_TABICON" path="images/tabicon.png" />
+	
+	<image id="IDB_TABSYSINFO" path="images/tab_sysinfo.bmp" />
+</images>
+

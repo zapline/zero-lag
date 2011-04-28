@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xmls>
+	<xml id="IDR_KSC_SKIN" path="def_skin.xml" />
+	<xml id="IDR_KSC_STYLE" path="def_style.xml" />
+	<xml id="IDR_DLG_MESSAGEBOX" path="dlg_msgbox.xml" />
+	<xml id="IDR_DLG_MAIN" path="dlg_main.xml" />
+</xmls>
