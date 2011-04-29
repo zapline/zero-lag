@@ -68,6 +68,8 @@
     <ClCompile Include="ProcessManageUIHandler.cpp" />
     <ClCompile Include="Public\BrowseDir.cpp" />
     <ClCompile Include="Public\GetGlobalState.cpp" />
+    <ClCompile Include="Public\RegEdit.cpp" />
+    <ClCompile Include="RightButton.cpp" />
     <ClCompile Include="RightButtonUIHandler.cpp" />
     <ClCompile Include="RunManage.cpp" />
     <ClCompile Include="RunManageUIHandler.cpp" />
@@ -88,7 +90,9 @@
     <ClInclude Include="Public\GetGlobalState.h" />
     <ClInclude Include="Public\LnkHelper.h" />
     <ClInclude Include="Public\MicrosoftVerify.h" />
+    <ClInclude Include="Public\RegEdit.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="RightButton.h" />
     <ClInclude Include="RightButtonUIHandler.h" />
     <ClInclude Include="RunManage.h" />
     <ClInclude Include="RunManageBase.h" />

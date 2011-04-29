@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include ".\..\StdAfx.h"
 #include "RegEdit.h"
 
 CRegEdit::CRegEdit(void)

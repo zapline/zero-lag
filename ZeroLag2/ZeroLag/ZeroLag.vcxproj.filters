@@ -85,6 +85,12 @@
     <ClCompile Include="Public\GetGlobalState.cpp">
       <Filter>Public</Filter>
     </ClCompile>
+    <ClCompile Include="RightButton.cpp">
+      <Filter>Module\RightButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\RegEdit.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainWnd.h">
@@ -145,6 +151,12 @@
       <Filter>Public</Filter>
     </ClInclude>
     <ClInclude Include="Public\LnkHelper.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="RightButton.h">
+      <Filter>Module\RightButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\RegEdit.h">
       <Filter>Public</Filter>
     </ClInclude>
   </ItemGroup>
