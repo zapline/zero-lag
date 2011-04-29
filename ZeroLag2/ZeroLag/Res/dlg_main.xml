@@ -50,6 +50,7 @@
 					</tab>
 					
 					<tab title="键鼠信息" width="full" height="full" crtext="000000">
+					
 					</tab>
 				</tabctrl>
 			</tab>
@@ -64,6 +65,10 @@
 			</tab>
 			
 			<tab title="右键管理" width="full" height="full" crtext="000000">
+			<button id="6101" class="normalbtn" pos="50,50,150,100">添加清空回收站</button>
+			<button id="6102" class="normalbtn" pos="180,50,280,100">去除清空回收站</button>
+			<button id="6103" class="normalbtn" pos="50,150,150,200">添加 移动到</button>
+			<button id="6104" class="normalbtn" pos="180,150,280,200">去除 移动到</button>
 			</tab>
 		</tabctrl>
 	</body>
