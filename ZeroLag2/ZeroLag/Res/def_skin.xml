@@ -44,13 +44,6 @@
 <imglst name="mainuibwssafe" src="IDB_MAINUI_BWS_ICON" mode="mask" subwidth="32"/>
 <png name=iconprottab src="IDP_LOGO_PROTECTION_TAB" subwidth=33/>
 <png name=logoprotection src="IDP_LOGO_PROTECTION" />
-<png name=softmgrclear src="IDP_SOFTMGR_CLEAR" subwidth="79"/>
-<png name=softmgrrevert src="IDP_SOFTMGR_REVERT" subwidth="79"/>
-<png name="onekey_clean_end" src="IDB_ONEKEY_CLEAN_END" />
-<imglst name="onekey_clean_advice" src="IDB_ONEKEY_CLEAN_ADVICE" />
-<imglst name="onekey_clean_first" src="IDB_ONEKEY_CLEAN_FIRST" />
-<png name="onekey_clean_stoped" src="IDB_ONEKEY_CLEAN_STOPED" />
-<imglst name="onekey_clean_config_greentip"  src="IDB_ONEKEY_CLEAN_GREEN_TIPS" />
 <png name="scan_animation" src="IDP_SCAN_ANIMATION" subwidth="54" mode="mask" />
 <png name="scan_animation_bg" src="IDP_SCAN_ANIMATION_BG" subwidth="42" mode="mask" />
 <png name="folder" src="IDP_FOLDER" />
@@ -59,11 +52,9 @@
 <imglst name="tabmain" src="IDB_TABMAIN" mode="mask" subwidth=71/>
 <imglst name="tabsysinfo" src="IDB_TABSYSINFO" mode="mask" subwidth=69/>
 <png name="tabicon" src="IDP_TABICON" subwidth=48/>
-<imglst name="onekeyclean" src="IDB_ONEKEY_CLEAN" subwidth="168"/>
-<imglst name="onekeyshadow" src="IDB_ONEKEY_SHAWDOW" subwidth="168"/>
-<png name="onekeyflag" src="IDP_ONEKEY_FLAG" subwidth="52"/>
 <imghorzex name="onekeyheader" src="IDB_ONEKEY_HEADER"/>
 <imglst name="closebtn" src="IDB_BTN_SYS_CLOSE" subwidth="30"/>
 <png name="maxbtn" src="IDP_BTN_SYS_MAXIMIZE" subwidth="30"/>
 <png name="minbtn" src="IDP_BTN_SYS_MINIMIZE" subwidth="32"/>
+<png name="restorebtn" src="IDP_BTN_SYS_RESTORE" subwidth="30"/>
 </skins>
