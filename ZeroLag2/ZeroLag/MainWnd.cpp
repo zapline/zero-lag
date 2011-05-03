@@ -46,7 +46,7 @@ LRESULT CMainWnd::OnInitDialog( HWND hDlg, LPARAM lParam )
 
 void CMainWnd::OnDestroy()
 {
-    PostQuitMessage(0);
+	PostQuitMessage(0);
 }
 
 void CMainWnd::OnBkBtnMax()

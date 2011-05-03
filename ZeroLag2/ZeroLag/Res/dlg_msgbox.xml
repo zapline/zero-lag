@@ -1,8 +1,10 @@
 ﻿<layer>
-    <header class=msgboxhead width=full height=32>
-        <icon src="ICON_MAIN" pos="5,9"/><text id=60004 class=dlgtitle pos="25,10">提示文本</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    <header class="sgboxhead" width="full" height=32>
+        <icon src="ICON_MAIN" pos="5,9"/>
+		<text id="60004" class="dlgtitle" pos="25,10">提示文本</text>
+		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
     </header>
-    <footer class=msgboxfoot width=full height=45>
+    <footer class="msgboxfoot" width="full" height=45>
       <dlg id="60009" pos="0,0,-0,-0" class="client"/>
       <dlg id="60008" pos="0,0,-0,-0" class="client"/>
     </footer>

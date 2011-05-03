@@ -1,0 +1,18 @@
+﻿<layer title="ZeroLag" width="400" height="300" appwin="1">
+    <header class="msgboxhead" width="full" height=32>
+        <icon src="ICON_MAIN" pos="5,9"/>
+		<text id="60004" class="dlgtitle" pos="25,10">扫描设置</text>
+		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height=45>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+      <dlg pos="0,0,-0,-0">
+        <dlg pos="0,0,-0,-20">
+          <text id="11001" pos="70,20,-0,-0" class="类型选择"/>
+          <dlg show="0" id="60016" pos="70,20,-0,-0" class="msgtext"/>
+		</dlg>
+        <button id="11101" class="normalbtn" pos="20,-18,50,-5">确定</button>
+      </dlg>
+    </body>
+</layer>

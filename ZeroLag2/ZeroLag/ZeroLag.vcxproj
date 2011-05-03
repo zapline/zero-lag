@@ -76,6 +76,7 @@
     <ClCompile Include="ServerManage.cpp" />
     <ClCompile Include="ServerManageUIHandler.cpp" />
     <ClCompile Include="SignScan.cpp" />
+    <ClCompile Include="SignScanOptionDlg.cpp" />
     <ClCompile Include="SignScanUIHandler.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="SystemInfoUIHandler.cpp" />
@@ -100,6 +101,7 @@
     <ClInclude Include="ServerManage.h" />
     <ClInclude Include="ServerManageUIHandler.h" />
     <ClInclude Include="SignScan.h" />
+    <ClInclude Include="SignScanOptionDlg.h" />
     <ClInclude Include="SignScanUIHandler.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="SystemInfoUIHandler.h" />

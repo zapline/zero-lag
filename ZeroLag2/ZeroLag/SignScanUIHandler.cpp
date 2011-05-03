@@ -1,6 +1,7 @@
 #include "SignScanUIHandler.h"
 #include "stdafx.h"
 #include "MainWnd.h"
+#include "SignScanOptionDlg.h"
 
 CSignScanUIHandler::CSignScanUIHandler(void)
 {
@@ -146,6 +147,8 @@ void CSignScanUIHandler::OnSignScanEnd()
 
 void CSignScanUIHandler::OnSignScanOption()
 {
+	CSignScanOptionDlg dlg;
+	dlg.DoModal();
 }
 
 void SignScanThread( LPVOID param )
