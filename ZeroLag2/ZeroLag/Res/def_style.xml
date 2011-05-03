@@ -43,7 +43,6 @@
 <class name=listheader skin=listheaderbg font=0000 crtext=000000 crbg=FBFCFD textmode=25/>
 <class name=list spacing=10/>
 <class name=dlgtitle font=0000 crtext=FFFFFF/>
-<class name=virscanreporttitle font=0504 textmode=24/>
 <class name=splitter crbg=E5E5E5 textmode=25 cursor=hand/>
 <class name=splitter_notclickable crbg=E5E5E5 textmode=25/>
 <class name=countdiv spacing=5/>
@@ -69,7 +68,6 @@
 <class name=btnvirscan skin=btnvirscanbg cursor=hand/>
 <class name=btnstartpage skin=btnstartpagebg cursor=hand/>
 <class name=richtext spacing=5 linespacing=20/>
-<class name=virscanpanel skin=panelgray margin=10/>
 <class name=panelgray skin=panelgray/>
 <class name=endellipsistext textmode=8020/>
 

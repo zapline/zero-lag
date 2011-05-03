@@ -91,6 +91,9 @@
     <ClCompile Include="Public\RegEdit.cpp">
       <Filter>Public</Filter>
     </ClCompile>
+    <ClCompile Include="SignScanOptionDlg.cpp">
+      <Filter>Module\SignScan</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainWnd.h">
@@ -158,6 +161,9 @@
     </ClInclude>
     <ClInclude Include="Public\RegEdit.h">
       <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="SignScanOptionDlg.h">
+      <Filter>Module\SignScan</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

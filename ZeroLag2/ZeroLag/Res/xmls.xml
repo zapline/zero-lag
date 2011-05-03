@@ -4,4 +4,5 @@
 	<xml id="IDR_KSC_STYLE" path="def_style.xml" />
 	<xml id="IDR_DLG_MESSAGEBOX" path="dlg_msgbox.xml" />
 	<xml id="IDR_DLG_MAIN" path="dlg_main.xml" />
+	<xml id="IDR_DLG_SIGNSCAN_OPTION" path="dlg_signscan_option.xml" />
 </xmls>

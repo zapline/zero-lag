@@ -28,11 +28,11 @@ public:
 	CSystemInfoUIHandler *SystemInfoHandler;
 
 	KUI_NOTIFY_MAP(IDC_RICHVIEW_WIN)
-        KUI_NOTIFY_ID_COMMAND(60001, OnBkBtnClose)
-        KUI_NOTIFY_ID_COMMAND(60002, OnBkBtnMax)
-        KUI_NOTIFY_ID_COMMAND(60003, OnBkBtnMin)
-    KUI_NOTIFY_MAP_END()
-	BEGIN_MSG_MAP_EX(CMainWnd)
+		KUI_NOTIFY_ID_COMMAND(60001, OnBkBtnClose)
+		KUI_NOTIFY_ID_COMMAND(60002, OnBkBtnMax)
+		KUI_NOTIFY_ID_COMMAND(60003, OnBkBtnMin)
+		KUI_NOTIFY_MAP_END()
+		BEGIN_MSG_MAP_EX(CMainWnd)
 		MSG_KUI_NOTIFY(IDC_RICHVIEW_WIN)
 		CHAIN_MSG_MAP(CKuiDialogImpl<CMainWnd>)
 		CHAIN_MSG_MAP(CWHRoundRectFrameHelper<CMainWnd>)
@@ -47,6 +47,6 @@ public:
 		CHAIN_MSG_MAP_MEMBER((*RightButtonHandler))
 		CHAIN_MSG_MAP_MEMBER((*ProcessManageHandler))
 		REFLECT_NOTIFICATIONS_EX()
-	END_MSG_MAP()
+		END_MSG_MAP()
 };
 extern CMainWnd *g_pMainWnd;

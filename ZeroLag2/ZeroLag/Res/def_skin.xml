@@ -26,29 +26,6 @@
 <imglst name=leftfilterbtn src="IDB_BTN_FILTER_LEFT" subwidth=125/>
 <imglst name=rightfilterbtn src="IDB_BTN_FILTER_RIGHT" subwidth=30/>
 
-<imglst name=stat15 src="IDB_STATUS_ICON" mode=mask subwidth=15/>
-<imglst name=stat40 src="IDB_STATUS_ICON3" mode=mask subwidth=40/>
-<png name=scanani src="IDP_EXAM_SCAN" subwidth=35/>
-<png name=scananibg src="IDP_EXAM_SCAN_BG" subwidth=42/>
-<gradation name=tipbg from=FFFFFF to=E4E5F0 direction=vert/>
-<imglst name="ksc_logo" src="IDB_LOGO_KSC" />
-<imglst name="clear_logo" src="IDB_LOGO_CLEAR" />
-<png name=examstatus src="IDP_EXAM_STATUS" subwidth=48/>
-<imglst name="exam_stat15" src="IDB_EXAM_STATUS_ICON" mode="mask" subwidth="15"/>
-<png name=examanipng src="IDP_EXAM_ANTI" subwidth=48/>
-<png name="protectionstatus3" src="IDP_PROTECTION_STATUS3" subwidth="42" mode="mask" />
-<png name="protectionstatus2" src="IDP_PROTECTION_STATUS2" subwidth="32" mode="mask" />
-<png name="protectionexample" src="IDP_PROTECTION_EXAMPLE" mode="mask" />
-<png name="powersweep_ico" src="IDP_POWERSWEEP_ICO" />
-<png name="loadinfotip" src="IDP_LOADINFO_TIP" subwidth="16" />
-<imglst name="mainuibwssafe" src="IDB_MAINUI_BWS_ICON" mode="mask" subwidth="32"/>
-<png name=iconprottab src="IDP_LOGO_PROTECTION_TAB" subwidth=33/>
-<png name=logoprotection src="IDP_LOGO_PROTECTION" />
-<png name="scan_animation" src="IDP_SCAN_ANIMATION" subwidth="54" mode="mask" />
-<png name="scan_animation_bg" src="IDP_SCAN_ANIMATION_BG" subwidth="42" mode="mask" />
-<png name="folder" src="IDP_FOLDER" />
-<png name="process_ok" src="IDP_PROCESS_OK" />
-<imglst name="bigfile_del_msgbox" src="IDB_DEL_MSGBOX_INFO" subwidth="40" mode="mask"/>
 <imglst name="tabmain" src="IDB_TABMAIN" mode="mask" subwidth=71/>
 <imglst name="tabsysinfo" src="IDB_TABSYSINFO" mode="mask" subwidth=69/>
 <png name="tabicon" src="IDP_TABICON" subwidth=48/>
