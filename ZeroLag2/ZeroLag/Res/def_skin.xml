@@ -7,6 +7,7 @@
 <imghorzex name=progresspos src="IDB_PROGRESS_BAR_VALUE" mode=mask left=3/>
 
 <imgframe name=panel src="IDB_FRAME_PANEL" top=1 left=1 crbg=FBFCFD/>
+<imgframe name=cpanel src="IDB_FRAME_PANEL" left=1 crbg=FBFCFD/>
 <imgframe name=panelgray src="IDB_FRAME_PANEL_GRAY" top=1 left=1 crbg=FBFCFD/>
 <imgframe name=panelwhite src="IDB_FRAME_PANEL" top=1 left=1 crbg=FBFCFD/>
 <imgframe name=panelclear src="IDB_CLEAR_PANEL" mode=mask top=7 left=7 crbg=FBFCFD/>
