@@ -16,7 +16,7 @@
 <class name=anibg skin=anibg/>
 <class name=tipbg skin=tipbg/>
 <class name=panelwhite skin=panelwhite/>
-<class name=cpanel skin=panel margin=20/>
+<class name=cpanel skin=cpanel margin=20/>
 <class name=panelclear skin=panelclear margin=8/>
 <class name=client margin=10/>
 <class name=normalbtn skin=normalbtn font=0000 crtext=000000 textmode=25 cursor=hand x-margin=5/>

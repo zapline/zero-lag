@@ -1,18 +1,24 @@
-﻿<layer title="ZeroLag" width="400" height="300" appwin="1">
+﻿<layer title="ZeroLag" width="400" height="150" appwin="1">
     <header class="msgboxhead" width="full" height=32>
         <icon src="ICON_MAIN" pos="5,9"/>
 		<text id="60004" class="dlgtitle" pos="25,10">扫描设置</text>
 		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
     </header>
-    <footer class="msgboxfoot" width="full" height=45>
+    <footer class="msgboxfoot" width="full" height=5>
     </footer>
     <body class="msgboxbody" width="full" height="full">
-      <dlg pos="0,0,-0,-0">
-        <dlg pos="0,0,-0,-20">
-          <text id="11001" pos="70,20,-0,-0" class="类型选择"/>
-          <dlg show="0" id="60016" pos="70,20,-0,-0" class="msgtext"/>
+		<dlg pos="10,10,|-5,-25" class="cpanel">
+			<radio id="11003" group="11201"  pos="0,0">只扫描EXE文件</radio>
+			<radio id="11004" group="11201" pos="0,20">扫描全部文件</radio>
 		</dlg>
-        <button id="11101" class="normalbtn" pos="20,-18,50,-5">确定</button>
-      </dlg>
+		<text id="11001" pos="20,5" class="nametext">扫描类型选择</text>
+		
+		<dlg pos="|5,10,-10,-25" class="cpanel">
+			<radio id="11005" group="11202" pos="0,0">显示有签名项</radio>
+			<radio id="11006" group="11202" pos="0,20">隐藏有签名项</radio>
+		</dlg>
+		<text id="11002" pos="|15,5" class="nametext">隐藏有签名项</text>
+		
+		<button id="11101" class="normalbtn" pos="20,-22,100,-2">确定</button>
     </body>
 </layer>
