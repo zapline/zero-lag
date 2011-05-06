@@ -6,6 +6,7 @@ class CSignScanOptionDlg : public CKuiDialogImpl<CSignScanOptionDlg>
 {
 public:
 	CSignScanOptionDlg(void);
+	CSignScanOptionDlg(BOOL xSignScanHideHave,int xSignScanFileType);
 	~CSignScanOptionDlg(void);
 
 	void OnSubmit();
@@ -13,6 +14,9 @@ public:
 	LRESULT OnInitDialog( HWND hDlg, LPARAM lParam );
 	void OnSysCommand(WPARAM wParam, CPoint pt );
 	void OnBkBtnClose();
+
+	BOOL SignScanHideHave;
+	int SignScanFileType;
 
 	KUI_NOTIFY_MAP(IDC_RICHVIEW_WIN)
 		KUI_NOTIFY_ID_COMMAND(11101, OnSubmit)
