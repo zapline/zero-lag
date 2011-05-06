@@ -147,8 +147,12 @@ void CSignScanUIHandler::OnSignScanEnd()
 
 void CSignScanUIHandler::OnSignScanOption()
 {
-	CSignScanOptionDlg dlg;
-	dlg.DoModal();
+	CSignScanOptionDlg dlg(SignScanHideHave,SignScanFileType);
+	if (dlg.DoModal() == IDOK)
+	{
+		SignScanFileType = dlg.SignScanFileType;
+		SignScanHideHave = dlg.SignScanHideHave;
+	}
 }
 
 void SignScanThread( LPVOID param )
