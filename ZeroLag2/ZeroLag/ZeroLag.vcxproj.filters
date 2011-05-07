@@ -94,6 +94,9 @@
     <ClCompile Include="SignScanOptionDlg.cpp">
       <Filter>Module\SignScan</Filter>
     </ClCompile>
+    <ClCompile Include="Upan.cpp">
+      <Filter>Module\Upan</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainWnd.h">
@@ -164,6 +167,9 @@
     </ClInclude>
     <ClInclude Include="SignScanOptionDlg.h">
       <Filter>Module\SignScan</Filter>
+    </ClInclude>
+    <ClInclude Include="Upan.h">
+      <Filter>Module\Upan</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
