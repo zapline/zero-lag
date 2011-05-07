@@ -175,6 +175,8 @@
     <None Include="Res\images\main.ico">
       <Filter>Res</Filter>
     </None>
-    <None Include="res\Res.zip" />
+    <None Include="res\Res.zip">
+      <Filter>Res</Filter>
+    </None>
   </ItemGroup>
 </Project>
