@@ -1,7 +1,7 @@
 ﻿<layer title="ZeroLag" width="800" height="600" appwin="1">
 	<header class="mainhead" width="full" height="23">
 		<icon src="ICON_MAIN" pos="5,4"/>
-		<text class="dlgtitle" pos="25,6">ZeroLag 2.0.9</text>
+		<text class="dlgtitle" pos="25,6">ZeroLag 2.0.10</text>
 		<imgbtn id="60003" class="linkimage" skin="minbtn" pos="-105,1"/>
 		<imgbtn id="60002" class="linkimage" skin="maxbtn" pos="-73,1"/>
 		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,1"/>
