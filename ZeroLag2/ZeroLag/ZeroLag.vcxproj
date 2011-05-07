@@ -80,6 +80,7 @@
     <ClCompile Include="SignScanUIHandler.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="SystemInfoUIHandler.cpp" />
+    <ClCompile Include="Upan.cpp" />
     <ClCompile Include="UpanUIHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +106,7 @@
     <ClInclude Include="SignScanUIHandler.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="SystemInfoUIHandler.h" />
+    <ClInclude Include="Upan.h" />
     <ClInclude Include="UpanUIHandler.h" />
   </ItemGroup>
   <ItemGroup>

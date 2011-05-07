@@ -62,24 +62,24 @@
 			</tab>
 			
 			<tab title="U盘维护" width="full" height="full" crtext="000000">
-				<dlg id="7201" pos="20,30,|-10,-10" class="cpanel">
-					<realwnd id="7001" ctrlid="7001" pos="10,10,200,30" />
-					<button id="7105" class="normalbtn" pos="10,40,80,70">免疫</button>
+				<dlg id="7201" pos="20,30,|-10,-10" class="cpanel">		
+					<button id="7105" class="normalbtn" pos="220,10,320,33">免疫</button>
+					<realwnd id="7001" ctrlid="7001" pos="20,20,220,160" />
 				</dlg>
 				<text id="7103" pos="50,25" class="nametext">autorun免疫</text>
 				
 				<dlg id="7202" pos="|10,30,-20,-10" class="cpanel">
-					<realwnd id="7002" ctrlid="7002" pos="10,10,200,30" />
-					<button id="7106" class="normalbtn" pos="10,40,80,70">设置</button>
+					<button id="7106" class="normalbtn" pos="220,10,320,33">设置</button>
+					<realwnd id="7002" ctrlid="7002" pos="10,10,210,150" />
 				</dlg>
 				<text id="7104" pos="|40,25" class="nametext">显示隐藏文件</text>
 			</tab>
 			
 			<tab title="右键管理" width="full" height="full" crtext="000000">
-			<button id="6101" class="normalbtn" pos="50,50,150,100">添加清空回收站</button>
-			<button id="6102" class="normalbtn" pos="180,50,280,100">去除清空回收站</button>
-			<button id="6103" class="normalbtn" pos="50,150,150,200">添加 移动到</button>
-			<button id="6104" class="normalbtn" pos="180,150,280,200">去除 移动到</button>
+				<button id="6101" class="normalbtn" pos="50,50,150,100">添加清空回收站</button>
+				<button id="6102" class="normalbtn" pos="180,50,280,100">去除清空回收站</button>
+				<button id="6103" class="normalbtn" pos="50,150,150,200">添加 移动到</button>
+				<button id="6104" class="normalbtn" pos="180,150,280,200">去除 移动到</button>
 			</tab>
 		</tabctrl>
 	</body>
