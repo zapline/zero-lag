@@ -9,6 +9,8 @@ public:
 	void init(CMainWnd *p);
 	CMainWnd *pMain;
 
+	CComboBox m_DriveList,m_UpanList;
+
 	KUI_NOTIFY_MAP(IDC_RICHVIEW_WIN)
 		KUI_NOTIFY_MAP_END()
 

@@ -62,6 +62,17 @@
 			</tab>
 			
 			<tab title="U盘维护" width="full" height="full" crtext="000000">
+				<dlg id="7201" pos="20,30,|-10,-10" class="cpanel">
+					<realwnd id="7001" ctrlid="7001" pos="10,10,200,30" />
+					<button id="7105" class="normalbtn" pos="10,40,80,70">免疫</button>
+				</dlg>
+				<text id="7103" pos="50,25" class="nametext">autorun免疫</text>
+				
+				<dlg id="7202" pos="|10,30,-20,-10" class="cpanel">
+					<realwnd id="7002" ctrlid="7002" pos="10,10,200,30" />
+					<button id="7106" class="normalbtn" pos="10,40,80,70">设置</button>
+				</dlg>
+				<text id="7104" pos="|40,25" class="nametext">显示隐藏文件</text>
 			</tab>
 			
 			<tab title="右键管理" width="full" height="full" crtext="000000">
